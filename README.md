@@ -68,7 +68,7 @@ More importantly, you can debug your extension inside VS. To do so make the foll
 * Debugging -> Command = C:\Python35\python.exe
 * Debugging -> Working Directory = (your output directory)
 
-Place a breakpoint somewhere (like the return statement inside `sayhello()`) and hit debug. The breakpoint will be greyed out at first because launching python.exe doesn't load your .pyd file. But it will get loaded when you execute the import statement. When `PySampleExt.greet()` is called your breakpoint should get triggered.
+Place a breakpoint somewhere (like the return statement inside `sayhello()`) and hit debug. The breakpoint will be greyed out at first because launching python.exe doesn't load your .pyd file. But it will get loaded when you execute the import statement. When `PySampleExt.sayhello()` is called your breakpoint should get triggered.
 
 ## What's special about this project?
 
