@@ -39,6 +39,7 @@ Create an empty Visual C++ project. These are the important changes you need to 
 
 
 Put a source file in your project with the following content (or whatever you choose):
+
 	#include <boost/python.hpp>
 	#include <string>
 
