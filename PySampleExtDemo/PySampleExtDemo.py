@@ -1,0 +1,2 @@
+import PySampleExt
+PySampleExt.sayhello()
