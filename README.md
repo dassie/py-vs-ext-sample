@@ -1,5 +1,5 @@
 # py-vs-ext-sample
-A project demonstrating how to write, build, and debug python extension modules inside Visual Studio.
+A project demonstrating how to write, build, and debug python extension modules inside Visual Studio using Boost.Python.
 
 I created this project because the instructions for building boost.python are a bit scattered and those for using the libs and headers inside Visual Studio are non-existent. I figured, perhaps others would benefit from a brief guide on how to set it up.
 
